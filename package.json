@@ -24,6 +24,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.1",
     "@material-ui/icons": "^4.9.1",
+    "@shopify/polaris": "^5.10.2",
     "preact": "^10.5.7",
     "preact-compat": "^3.19.0",
     "react": "^17.0.1",
