@@ -1,0 +1,20 @@
+{
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Hello extensions",
+    "default_icon": "hello_extensions.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://xn-cckvbk4d0dzf5b.myshopify.com/admin/orders/*"
+      ],
+      "js": [
+        "content_scripts.js"
+      ]
+    }
+  ]
+}
